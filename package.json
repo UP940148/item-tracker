@@ -1,0 +1,33 @@
+{
+  "name": "item-tracker",
+  "version": "1.0.0",
+  "description": "This repository was made to facilitate the tracking of items stored in multiple locations such as a house, an attic, a storage facility, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UP940148/item-tracker.git"
+  },
+  "author": "Daniel John Ellis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UP940148/item-tracker/issues"
+  },
+  "homepage": "https://github.com/UP940148/item-tracker#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-portsoc": "github:portsoc/eslint-config-portsoc"
+  },
+  "eslintConfig": {
+    "extends": "portsoc",
+    "root": true,
+    "env": {
+      "browser": true
+    }
+  }
+}
